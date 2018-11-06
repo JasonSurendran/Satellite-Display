@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- dictionary and dictionary plugin are used to setup data structure and parameters, and then make them into an object respectivly -->
+	<!-- You can use package.json file to set a starting point, in this case server.js -->
+	<!-- package-lock is used for npm install dependacies -->
+    <!-- spacecraft.js creates a basis for the initial state and setup of the sample spacecraft -->
+    <title>Open MCT Tutorials</title>
+    <script src="node_modules/openmct/dist/openmct.js"></script><!-- Standard Requirement -->
+    <script src="lib/http.js"></script>
+    
+    <script src="dictionary-plugin.js"></script>
+    <script src="historical-telemetry-plugin.js"></script>
+    <script src="realtime-telemetry-plugin.js"></script>
+</head>
+<body>
+    <script>
+        openmct.setAssetPath('node_modules/openmct/dist');
+        openmct.install(openmct.plugins.LocalStorage());
+        openmct.install(openmct.plugins.UTCTimeSystem());
+        openmct.time.clock('local', {start: -15 * 60 * 1000, end: 0});
+        openmct.time.timeSystem('utc');
+        openmct.install(openmct.plugins.Espresso());
+
+
+        openmct.install(DictionaryPlugin());
+        openmct.install(HistoricalTelemetryPlugin());
+        openmct.install(RealtimeTelemetryPlugin());
+
+        openmct.start();
+    </script>
+</body>
+</html>
