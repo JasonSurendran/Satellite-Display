@@ -1,14 +1,15 @@
-## OpenMCT 
+# OpenMCT
 
-* [node.js](https://nodejs.org/en/)
+The classic Battleship game remade using a more custom gameplay in C. Incorporates a 9x9 game board with a two-player game format.
 
-* [git](https://git-scm.com/)
+## Pre-requisites 
+
+- [node.js](https://nodejs.org/en/)
+- [git](https://git-scm.com/)
 
 
-## Running Files
+## Running 
 
-```
-cd openmct
-npm install
-npm start
-```
+1. cd openmct
+2. npm install 
+3. npm start 
