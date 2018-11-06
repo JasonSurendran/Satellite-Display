@@ -2,7 +2,7 @@
 
 Mission operations data visualization used for Cubesat project. Utilizes OpenMCT (a NASA Framework which incorporates NodeJS and Express) in order to display the data received from a server in real time.
 
-## Pre-requisites 
+## Prerequisites 
 
 - [node.js](https://nodejs.org/en/)
 - [git](https://git-scm.com/)
