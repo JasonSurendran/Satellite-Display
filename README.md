@@ -1,6 +1,6 @@
 # OpenMCT
 
-The classic Battleship game remade using a more custom gameplay in C. Incorporates a 9x9 game board with a two-player game format.
+Mission operations data visualization used for Cubesat project. Utilizes OpenMCT (a NASA Framework which incorporates NodeJS and Express) in order to display the data received from a server in real time.
 
 ## Pre-requisites 
 
@@ -10,6 +10,7 @@ The classic Battleship game remade using a more custom gameplay in C. Incorporat
 
 ## Running 
 
-1. cd openmct
-2. npm install 
-3. npm start 
+1. Navigate to folder
+2. cd openmct
+3. npm install 
+4. npm start 
