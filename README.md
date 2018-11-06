@@ -12,7 +12,5 @@
 ## Running Files
 
 cd openmct
-
 npm install
-
 npm start
