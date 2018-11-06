@@ -10,6 +10,7 @@
     * linux: https://git-scm.com/downloads
 
 ## Running Files
+
 cd openmct
 npm install
 npm start
