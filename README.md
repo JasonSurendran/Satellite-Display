@@ -14,3 +14,4 @@ Mission operations data visualization used for Cubesat project. Utilizes OpenMCT
 2. cd openmct
 3. npm install 
 4. npm start 
+5. Navigate to localhost:1234 on browser
