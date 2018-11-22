@@ -1,4 +1,4 @@
-# OpenMCT
+# Satellite-Display
 
 Mission operations data visualization used for Cubesat project. Utilizes OpenMCT (a NASA Framework which incorporates NodeJS and Express) in order to display the data received from a server in real time.
 
