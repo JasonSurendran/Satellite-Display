@@ -1,6 +1,5 @@
-/*
- Spacecraft.js simulates a small spacecraft generating telemetry.
-*/
+//Currently generates data points
+//Requires connection to server to draw real data
 
 function Spacecraft() {
     this.state = {
