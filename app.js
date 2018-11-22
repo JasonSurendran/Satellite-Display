@@ -1,12 +1,3 @@
-/*global require,process,console*/
-
-/**
- * Usage:
- *
- * npm install minimist express
- * node app.js [options]
- */
-
 (function () {
     "use strict";
 
