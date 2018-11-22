@@ -1,6 +1,5 @@
-/**
- * Basic Realtime telemetry plugin using websockets.
- */
+
+//Connecting to realtime data
 function RealtimeTelemetryPlugin() {
     return function (openmct) {
         var socket = new WebSocket(location.origin.replace(/^http/, 'ws') + '/realtime/');
