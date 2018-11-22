@@ -1,3 +1,5 @@
+//Creating Telemetries 
+//Specifying data required per telemetry
 function getDictionary() {
     return http.get('/dictionary.json')
         .then(function (result) {
