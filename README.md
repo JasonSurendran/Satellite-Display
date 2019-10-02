@@ -1,6 +1,6 @@
 # Satellite-Display
 
-Mission operations data visualization used for CubeSat project. Utilizes OpenMCT (a NASA web framework) in order to display the data received from a server in real time.
+Mission operations data visualization used for NEUDOSE CubeSat project. Utilizes OpenMCT (a NASA web framework) in order to display the data received from a server in real time.
 
 ## Prerequisites 
 
