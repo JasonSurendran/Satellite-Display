@@ -10,8 +10,6 @@ Mission operations data visualization used for NEUDOSE CubeSat project. Utilizes
 
 ## Running 
 
-1. Navigate to folder
-2. cd openmct
-3. npm install 
-4. npm start 
-5. Navigate to localhost:1234 on browser
+1. npm install 
+2. npm start 
+3. Navigate to localhost:1234 on browser
