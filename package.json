@@ -19,6 +19,7 @@
   "dependencies": {
     "express": "^4.14.1",
     "express-ws": "^3.0.0",
+    "extend": ">=3.0.2",
     "openmct": "nasa/openmct",
     "ws": "^3.3.1"
   }
